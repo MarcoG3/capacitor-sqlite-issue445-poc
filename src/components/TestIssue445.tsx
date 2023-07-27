@@ -35,7 +35,7 @@ const TestIssue445: React.FC = () => {
                 CREATE TABLE IF NOT EXISTS Table_1 (
                     id INTEGER PRIMARY KEY NOT NULL,
                     product_id TEXT NOT NULL,
-                    product_type TEXT DEFAULT 'generic' CHECK (product_type IN ('object', 'book')),
+                    product_type TEXT DEFAULT 'object' CHECK (product_type IN ('object', 'book')),
                     result_id TEXT,
                     result_slug TEXT,
                     person_id INTEGER,
