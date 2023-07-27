@@ -64,6 +64,9 @@ const Tab2: React.FC = () => {
               <IonButton routerLink={`/test/${"NonConformedDB"}`} expand="block">Test NC Database</IonButton>
             </IonItem>
           }
+          <IonItem>
+            <IonButton routerLink={`/test/${"TestIssue445"}`} expand="block">Test Issue445</IonButton>
+          </IonItem>
         </IonList>
       </IonContent>
     </IonPage>

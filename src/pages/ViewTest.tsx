@@ -18,6 +18,7 @@ import TestUpgradeVersion from '../components/TestUpgradeVersion';
 import TestIssue184 from '../components/TestIssue184';
 import MigrateDB  from '../components/MigrateDB';
 import NonConformedDB from '../components/NonConformedDB';
+import TestIssue445 from "../components/TestIssue445";
 
 
 const ViewTest: React.FC = () => {
@@ -42,6 +43,8 @@ const ViewTest: React.FC = () => {
                 return (<TestUpgradeVersion></TestUpgradeVersion>)
             case 'TestIssue184':
                 return (<TestIssue184></TestIssue184>)
+            case 'TestIssue445':
+                return (<TestIssue445></TestIssue445>)
             case 'MigrateDB':
                 return (<MigrateDB></MigrateDB>)
             case 'NonConformedDB':

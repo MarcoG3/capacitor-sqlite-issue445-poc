@@ -17,13 +17,17 @@
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
-    "jsx": "react-jsx",
-    "noFallthroughCasesInSwitch": true
+    "jsx": "preserve",
+    "noFallthroughCasesInSwitch": true,
+    "incremental": true
   },
   "include": [
     "src/**/*.ts",
     "src/**/*.tsx",
     "./capacitor.config.ts",
     "./capacitor.config.js"
+  ],
+  "exclude": [
+    "node_modules"
   ]
 }
